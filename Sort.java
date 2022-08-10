@@ -6,3 +6,7 @@ llist.sort((x, y) -> {
             }
             return x.size() - y.size();
         });
+
+//OR
+
+llist.sort((a,b) -> a.get(0) - b.get(0));
